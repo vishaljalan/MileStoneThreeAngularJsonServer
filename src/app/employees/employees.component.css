@@ -1,0 +1,39 @@
+/* Style for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for the table header */
+  .table thead tr {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  /* Style for the table cells */
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style for the Edit and Delete buttons */
+  .table .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  /* Style for the Edit button */
+  .table .btn-dark {
+    background-color: #1626d3;
+    color: #fff;
+  }
+  
+  /* Style for the Delete button */
+  .table .btn-danger {
+    background-color: #c10a1f;
+    color: #fff;
+  }
